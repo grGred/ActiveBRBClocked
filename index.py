@@ -22,14 +22,10 @@ def main():
             activeRBCSupply += nftInfo[0]
         elif (nftInfo[1] != 0):
             inactiveSupply += nftInfo[0]
-            print(i)
-            print(nftInfo)
-
     
     print(activeRBCSupply)
     print(inactiveSupply)
 
-    
 
 if __name__ == "__main__":
     main()
